@@ -13,5 +13,5 @@ jobs:
     - uses: actions/checkout@v2
     - uses: shaijut/notimpo
       with:
-        first_name: John
-        last_name: Tom  
+        first_name: 'John'
+        last_name: 'Tom' 
