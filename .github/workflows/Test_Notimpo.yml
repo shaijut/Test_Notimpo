@@ -9,7 +9,8 @@ jobs:
   Notimpo:
     runs-on: ubuntu-latest
     steps:
-      - uses: shaijut/Notimpo
+      - name: Notimpo Run
+        uses: shaijut/Notimpo@v1
         with:
-            firstname: "John"
+            first_name: "John"
 
