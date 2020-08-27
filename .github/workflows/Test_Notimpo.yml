@@ -1,4 +1,4 @@
-name: "Test Notimpo"
+name: 'A test'
 on:
   push:
     branches: [ master ]
@@ -6,10 +6,10 @@ on:
     branches: [ master ]
 
 jobs:
-  # test GH action works or not
-  test:
+  Notimpo:
     runs-on: ubuntu-latest
     steps:
-    - uses: shaijut/Notimpo
-      with:
-        first_name: 'John'
+      - uses: shaijut/Notimpo
+        with:
+            first_name: 'John'
+
