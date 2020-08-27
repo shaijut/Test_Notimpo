@@ -14,4 +14,3 @@ jobs:
     - uses: shaijut/notimpo
       with:
         first_name: 'John'
-        last_name: 'Tom' 
