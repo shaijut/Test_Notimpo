@@ -16,22 +16,6 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-    - name: Checkout the repository
-      uses: actions/checkout@v2
-
-    - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: ${{ matrix.dotnet }}
-
-    - name: Restore NuGet packages
-      shell: bash
-      run: |
-        dotnet restore
-    - name: Build console app
-      shell: bash
-      run: |
-        dotnet build
     - name: Run the private action
       uses: shaijut/Notimpo@v2
       with:
