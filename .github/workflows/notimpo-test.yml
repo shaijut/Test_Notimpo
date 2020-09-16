@@ -33,7 +33,7 @@ jobs:
       run: |
         dotnet build
     - name: Run the private action
-      uses: shaijut/Notimpo@master
+      uses: shaijut/Notimpo@v2
       with:
         mailgun_api_key: '123456'
         to: 'to@example.com'
