@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
 
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@master
@@ -33,7 +33,7 @@ jobs:
       run: |
         dotnet build
     - name: Run the private action
-      uses: shaijut/Notimpo@master
+      uses: shaijut/Notimpo@v1
       with:
         mailgun_api_key: '123456'
         to: 'to@example.com'
